@@ -15,7 +15,7 @@ public:
         }
 
 
-        if (word.length()>0) {
+        if (word.length()>0) {//for last word
             result += word;
         } else if (result.length()>0 && result.back() == ' ') {
             result.pop_back();
